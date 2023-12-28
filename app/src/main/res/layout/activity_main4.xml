@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo11_got"
+    tools:context=".MainActivity4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/czcionka2"
+                android:text="Dane o kliencie"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/czcionka2"
+                android:maxWidth="370dp"
+                android:text="Witaj uzytkowniku wprowadź teraz kilka swoich danych osobistych abyśmy mogli obliczyć twoją zdolność kredytową"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:textSize="18dp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="57dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="232dp"
+                android:fontFamily="@font/czcionka2"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:text="Łączny dochód: "
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.666"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+            <EditText
+                android:id="@+id/edt4"
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:letterSpacing="0.06"
+                android:text="8000"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:textSize="23dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="173dp"
+                android:layout_marginTop="-43dp"
+                android:text="zł"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintStart_toEndOf="@+id/iib2"
+                app:layout_constraintTop_toBottomOf="@+id/edt4" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="272dp"
+                android:fontFamily="@font/czcionka2"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:text="Ilość osób:"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edt4" />
+
+            <EditText
+                android:id="@+id/edt5"
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="23dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="199dp"
+                android:fontFamily="@font/czcionka2"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:text="Miesięczne wydatki:"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.555"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edt5" />
+
+            <EditText
+                android:id="@+id/edt6"
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:letterSpacing="0.06"
+                android:text="2000"
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:textSize="23dp"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="180dp"
+                android:fontFamily="@font/czcionka2"
+                android:text="Obecne raty kredytów:"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edt6" />
+
+            <EditText
+                android:id="@+id/edt7"
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:letterSpacing="0.06"
+                android:text="200"
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:textSize="23dp"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="227dp"
+                android:fontFamily="@font/czcionka2"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:text="Inne zobowiązania:"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.277"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edt7" />
+
+            <EditText
+                android:id="@+id/edt8"
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:letterSpacing="0.06"
+                android:text="0"
+
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:textSize="23dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/b4"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:fontFamily="@font/czcionka2"
+                android:text="Oblicz"
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edt8">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <ImageButton
+                android:id="@+id/iib1"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/przezroczyste"
+                android:contentDescription="Informacje"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/textView14"
+                app:layout_constraintTop_toBottomOf="@+id/textView20"
+                app:srcCompat="@android:drawable/ic_dialog_info" />
+
+            <ImageButton
+                android:id="@+id/iib2"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/przezroczyste"
+                android:contentDescription="Informacje"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/textView15"
+                app:layout_constraintTop_toBottomOf="@+id/edt4"
+                app:srcCompat="@android:drawable/ic_dialog_info" />
+
+            <ImageButton
+                android:id="@+id/iib3"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/przezroczyste"
+                android:contentDescription="Informacje"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/textView16"
+                app:layout_constraintTop_toBottomOf="@+id/edt5"
+                app:srcCompat="@android:drawable/ic_dialog_info" />
+
+            <ImageButton
+                android:id="@+id/iib4"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/przezroczyste"
+                android:contentDescription="Informacje"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/textView17"
+                app:layout_constraintTop_toBottomOf="@+id/edt6"
+                app:srcCompat="@android:drawable/ic_dialog_info" />
+
+            <ImageButton
+                android:id="@+id/iib5"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/przezroczyste"
+                android:contentDescription="Informacje"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/textView18"
+                app:layout_constraintTop_toBottomOf="@+id/edt7"
+                app:srcCompat="@android:drawable/ic_dialog_info" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-35dp"
+                android:layout_marginTop="288dp"
+                android:text="zł"
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:textSize="20dp"
+                app:layout_constraintStart_toEndOf="@+id/edt6"
+                app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-35dp"
+                android:layout_marginTop="397dp"
+                android:text="zł"
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:textSize="20dp"
+                app:layout_constraintStart_toEndOf="@+id/edt7"
+                app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="72dp"
+                android:layout_marginTop="-45dp"
+                android:text="zł"
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="6"
+                android:textSize="20dp"
+                app:layout_constraintStart_toEndOf="@+id/b4"
+                app:layout_constraintTop_toBottomOf="@+id/edt8" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
